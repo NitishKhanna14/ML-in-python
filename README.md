@@ -5,7 +5,7 @@ Implementing ML algorithms using Python
 IMPORTANT NOTES:
 
 1. To find the path of a file, right click on it and go to 'properties' and goto 'security', you will find the path there
-2. If your dataset contains names (person name, city name, ...etc), then drop those columns *del df["column_name"]*
+2. If your dataset contains names (person name, city name, ...etc), then drop those columns "*del df["column_name"]*"
 3. To improve the accuracy, drop the columns which get lowest value in CORRELATION MATRIX
 4. If an error shows up saying that a module/package is missing, then goto anaconda prompt and enter "*conda install package_name*"
 5. For train test split:
