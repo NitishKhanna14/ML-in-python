@@ -18,3 +18,5 @@ IMPORTANT NOTES:
 9. Agglomerative clustering belongs to hierarchial clustering
 10. Classification algorithms --> decision tree, naive bayes, KNN (K-Nearest Neighbours)
 11. Clustering algorithms --> Kmeans, agglomerative, mean shift 
+12. Refer association rule mining here
+        https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/
