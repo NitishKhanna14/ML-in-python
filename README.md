@@ -10,7 +10,7 @@ IMPORTANT NOTES:
 4. If an error shows up saying that a module/package is missing, then goto anaconda prompt and enter "*conda install package_name*"
 5. For train test split:
     let's consider 'a' to be no. of columns, then it's 
-    "*x_train,x_test,y_train,y_test = train_test_split(df.iloc[:,0:a],df.iloc[:,a:],random_state=1)*"
+    "*x_train,x_test,y_train,y_test = train_test_split(df.iloc[:,0:a-1],df.iloc[:,a-1:],random_state=1)*"
 6. If your dataset has got NaN values, replace it by entering
     "*df=df.fillna(df.mean())*"
 7. For clustering, you don't need to do the train_test_split
